@@ -1,0 +1,10 @@
+<library path="spacenav_teleop_needle_controller">
+    <class name="needle_controllers/SpacenavTeleopController"
+        type="needle_controllers::SpacenavTeleopController"
+        base_class_type="controller_interface::ControllerInterface">
+        <description>
+            A controller for teleoperating a robotic needle using a Space Navigator (3D mouse).
+            Maps Space Navigator movements to needle velocity commands.
+        </description>
+    </class>
+</library>
