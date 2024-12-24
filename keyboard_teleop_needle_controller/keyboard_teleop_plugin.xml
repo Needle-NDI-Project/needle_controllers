@@ -1,0 +1,10 @@
+<library path="keyboard_teleop_needle_controller">
+    <class name="needle_controllers/KeyboardTeleopController"
+        type="needle_controllers::KeyboardTeleopController"
+        base_class_type="controller_interface::ControllerInterface">
+        <description>
+            A controller for teleoperating a robotic needle using keyboard inputs.
+            Maps keyboard-generated Twist messages to needle velocity commands.
+        </description>
+    </class>
+</library>
